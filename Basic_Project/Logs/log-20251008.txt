@@ -1,0 +1,73 @@
+2025-10-08 02:54:06 [Information] Starting web application
+2025-10-08 02:55:27 [Information] Starting web application
+2025-10-08 02:57:13 [Information] Starting web application
+2025-10-08 02:58:06 [Warning] Failed to determine the https port for redirect.
+2025-10-08 02:58:06 [Information] Opening create quiz page
+2025-10-08 02:58:25 [Information] Creating new quiz: "Min"
+2025-10-08 02:58:25 [Information] Creating new quiz: "Min"
+2025-10-08 02:58:26 [Information] Quiz created successfully with ID: 9
+2025-10-08 02:58:26 [Information] Quiz created successfully: "Min"
+2025-10-08 02:58:26 [Information] Loading quiz list
+2025-10-08 02:58:26 [Information] Fetching all quizzes from database
+2025-10-08 02:58:30 [Information] Opening update quiz page for ID: 9
+2025-10-08 02:58:30 [Information] Fetching quiz with ID: 9
+2025-10-08 02:58:35 [Information] Updating quiz: 9
+2025-10-08 02:58:35 [Information] Updating quiz with ID: 9
+2025-10-08 02:58:35 [Information] Quiz updated successfully: 9
+2025-10-08 02:58:35 [Information] Quiz updated successfully: 9
+2025-10-08 02:58:35 [Information] Loading quiz list
+2025-10-08 02:58:35 [Information] Fetching all quizzes from database
+2025-10-08 02:58:36 [Information] Opening quiz taking page for ID: 9
+2025-10-08 02:58:36 [Information] Fetching quiz with ID: 9
+2025-10-08 02:58:40 [Information] Submitting quiz answers for ID: 9
+2025-10-08 02:58:40 [Information] Fetching quiz with ID: 9
+2025-10-08 02:58:40 [Information] Quiz submitted successfully. Score: 1/1
+2025-10-08 02:58:41 [Information] Loading quiz list
+2025-10-08 02:58:41 [Information] Fetching all quizzes from database
+2025-10-08 02:58:43 [Information] Opening update quiz page for ID: 9
+2025-10-08 02:58:43 [Information] Fetching quiz with ID: 9
+2025-10-08 02:58:55 [Information] Updating quiz: 9
+2025-10-08 02:58:55 [Information] Updating quiz with ID: 9
+2025-10-08 02:58:55 [Information] Quiz updated successfully: 9
+2025-10-08 02:58:55 [Information] Quiz updated successfully: 9
+2025-10-08 02:58:55 [Information] Loading quiz list
+2025-10-08 02:58:55 [Information] Fetching all quizzes from database
+2025-10-08 02:58:56 [Information] Opening update quiz page for ID: 9
+2025-10-08 02:58:56 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:01 [Information] Updating quiz: 9
+2025-10-08 02:59:01 [Information] Updating quiz with ID: 9
+2025-10-08 02:59:01 [Information] Quiz updated successfully: 9
+2025-10-08 02:59:01 [Information] Quiz updated successfully: 9
+2025-10-08 02:59:01 [Information] Loading quiz list
+2025-10-08 02:59:01 [Information] Fetching all quizzes from database
+2025-10-08 02:59:03 [Information] Opening update quiz page for ID: 9
+2025-10-08 02:59:03 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:06 [Information] Loading quiz list
+2025-10-08 02:59:06 [Information] Fetching all quizzes from database
+2025-10-08 02:59:07 [Information] Opening quiz taking page for ID: 9
+2025-10-08 02:59:07 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:11 [Information] Submitting quiz answers for ID: 9
+2025-10-08 02:59:11 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:11 [Information] Quiz submitted successfully. Score: 1/2
+2025-10-08 02:59:16 [Information] Opening quiz taking page for ID: 9
+2025-10-08 02:59:16 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:19 [Information] Submitting quiz answers for ID: 9
+2025-10-08 02:59:19 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:19 [Information] Quiz submitted successfully. Score: 2/2
+2025-10-08 02:59:23 [Information] Loading quiz list
+2025-10-08 02:59:23 [Information] Fetching all quizzes from database
+2025-10-08 02:59:25 [Information] Opening quiz taking page for ID: 9
+2025-10-08 02:59:25 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:29 [Information] Submitting quiz answers for ID: 9
+2025-10-08 02:59:29 [Information] Fetching quiz with ID: 9
+2025-10-08 02:59:29 [Information] Quiz submitted successfully. Score: 0/2
+2025-10-08 02:59:32 [Information] Loading quiz list
+2025-10-08 02:59:32 [Information] Fetching all quizzes from database
+2025-10-08 02:59:35 [Information] Deleting quiz: 9
+2025-10-08 02:59:35 [Information] Deleting quiz with ID: 9
+2025-10-08 02:59:35 [Information] Quiz deleted successfully: 9
+2025-10-08 02:59:35 [Information] Quiz deleted successfully: 9
+2025-10-08 02:59:35 [Information] Loading quiz list
+2025-10-08 02:59:35 [Information] Fetching all quizzes from database
+2025-10-08 03:01:07 [Information] Starting web application
+2025-10-08 03:02:57 [Information] Starting web application

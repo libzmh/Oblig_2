@@ -1,8 +1,72 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using Basic_Project.Models
+@model List<Quiz>
+
+@{
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">MyQuiz</h1>
+    </div>
+
+    <div class="row g-4">
+        
+        <!-- Create New Quiz -->
+        <div class="col-md-4">
+            <div class="card h-100 border-success create-card">
+                <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                    <h3 class="card-title mb-4">Create New Quiz</h3>
+                    <a href="/Quiz/Create" class="btn btn-success btn-lg">+ Create</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Existing Quizzes -->
+        @foreach (var quiz in Model)
+        {
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title mb-3">@quiz.Title</h4>
+                        <p class="card-text fs-6 mb-auto">@quiz.Description</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="/Quiz/Take/@quiz.Id" class="btn btn-primary">Take</a>
+                            <a href="/Quiz/Update/@quiz.Id" class="btn btn-warning">Update</a>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal-@quiz.Id">
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delete Modal -->
+            <div class="modal fade" id="deleteModal-@quiz.Id" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-danger text-white">
+                            <h5 class="modal-title">Confirm Delete</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you want to delete this quiz?</p>
+                            <p class="fw-bold">@quiz.Title</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <form asp-action="Delete" asp-controller="Quiz" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@quiz.Id" />
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-danger">Yes, Delete</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
 </div>
+
+<link rel="stylesheet" href="~/css/quiz.css" />

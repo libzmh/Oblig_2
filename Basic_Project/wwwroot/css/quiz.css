@@ -1,0 +1,58 @@
+/* Quiz Card Styling */
+
+.quiz-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Create Card Special Styling */
+.create-card {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.create-card:hover {
+    background-color: #e9ecef;
+}
+
+/* Button Styling */
+.btn-group-quiz {
+    display: flex;
+    gap: 8px;
+}
+
+.card .btn {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
