@@ -1,0 +1,5 @@
+/Basic_Project/bin/
+/Basic_Project/obj/
+*.user
+/Basic_Project/.vs/
+/Basic_Project/node_modules/
